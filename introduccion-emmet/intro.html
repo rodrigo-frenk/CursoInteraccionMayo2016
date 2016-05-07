@@ -1,0 +1,143 @@
+<!-- 1. Creando etiquetas -->
+
+etiqueta
+
+<etiqueta></etiqueta>
+
+<!-- 2. Crear etiqueta a partir de identidad -->
+
+#identidad
+<div id="identidad"></div>
+
+
+<!-- 3. Especificar identidad -->
+
+etiqueta#identidad
+<etiqueta id="identidad"></etiqueta>
+
+
+<!-- 4. Especificar clases -->
+
+etiqueta.clase1.clase2
+<etiqueta class="clase1 clase2"></etiqueta>
+
+<!-- 4. Especificar atributos -->
+
+etiqueta[atributo1=valor1][atributo2=valor2]
+<etiqueta atributo1="valor1" atributo2="valor2"></etiqueta>
+
+
+
+<!-- Jerarquía de elementos -->
+
+ul>li
+<ul>
+	<li></li>
+</ul>
+
+
+ul>li>a
+<ul>
+	<li>
+		<a href=""></a>
+	</li>
+</ul>
+
+
+
+<!-- Insertar contenidos -->
+
+div>p{Contenido}
+<div>
+	<p>Contenido</p>
+</div>
+
+
+a[http://google.com]{Enlace a Google}
+<a href="http://google.com">
+	Enlace a Google
+</a>
+
+<!-- Aquí, 'href' es el atributo más importante, por lo que Emmet automáticamente introduce el valor ahí -->
+
+
+
+<!-- textos generativos: -->
+
+p>lorem25
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error tempora consectetur adipisci quasi debitis libero, assumenda unde molestiae, magni laboriosam non sunt rerum facilis similique?</p>
+
+lorem3
+Lorem ipsum dolor.
+
+
+<!-- agrupando y repitiendo -->
+
+(a>p>lorem25)*2
+<a href="">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus sed distinctio minima repellat odit similique, ducimus nesciunt harum totam doloribus corporis consequuntur nobis, architecto neque.</p>
+</a>
+<a href="">
+	<p>Quisquam, est aperiam, perferendis velit obcaecati earum. Dicta, atque placeat porro in. Dolorum veritatis temporibus deleniti cum. Omnis eum temporibus inventore qui, aut harum quae!</p>
+</a>
+
+
+
+
+ul>li{Elemento Número $}*5
+<ul>
+	<li>Elemento Número 1</li>
+	<li>Elemento Número 2</li>
+	<li>Elemento Número 3</li>
+	<li>Elemento Número 4</li>
+	<li>Elemento Número 5</li>
+</ul>
+
+
+ul>li#elemento_${Elemento $}*3
+<ul>
+	<li id="elemento_1">Elemento 1</li>
+	<li id="elemento_2">Elemento 2</li>
+	<li id="<elemento_3></elemento_3>">Elemento 3</li>
+</ul>
+
+
+
+<!-- colocar elementos en el mismo nivel -->
+
+div>h1{Título}+p{Texto}+img
+<div>
+	<h1>Título</h1>
+	<p>Texto</p>
+	<img src="" alt="">
+</div>
+
+
+<!-- subir un nivel de jerarquía -->
+
+div>h1{Título}+p{Texto}+span+ul^img
+<div>
+	<h1>Título</h1>
+	<p>Texto</p>
+	<span></span>
+	<ul></ul>
+</div>
+<img src="" alt="">
+
+
+
+html>(head>title)+body>header#cabecera+main#principal+footer#pie-pagina
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<header id="cabecera"></header>
+	<main id="principal"></main>
+	<footer id="pie-pagina"></footer>
+</body>
+</html>
+
+
+
+

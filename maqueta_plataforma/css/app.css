@@ -1,0 +1,32 @@
+.h_75 {
+   /*h75%*/
+   height: 75%;
+}
+
+.h_100 {
+   /*h100%*/
+   height: 100%;
+}
+
+
+
+.h_10vh {
+   height: 10vh;
+}
+
+.h_15vh {
+   height: 15vh;
+}
+
+.h_25vh {
+   height: 25vh;
+}
+
+.h_75vh {
+   height: 75vh;
+}
+
+.scroll_h {
+   /*ovya*/
+   overflow-y: auto;
+}

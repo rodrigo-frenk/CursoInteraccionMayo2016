@@ -1,0 +1,111 @@
+
+Por ejemplo: Compañia que renta Autos
+
+    
+    Cliente
+        Número de ID
+            Número incremental
+        Nombre
+            Texto
+        Fecha de nacimiento
+            Fecha
+        Documentos
+            Documento
+                Número oficial
+                Imagen escaneada
+        Adeudo
+        Número de tarjerta
+        Dirección
+        E-mail
+        Historial
+        Observaciones
+        
+
+    Automóvil
+        Número de ID
+            Número incremental
+        IMagen
+        Marca
+            Texto
+        Modelo
+            Texto
+        Año
+            Número
+        Descripcion abreviada
+            (1 oración)
+        Precio por día
+        Descripción
+            Texto (2 párrafos)
+        Número de puertas
+            Número
+        Dimensiones exteriores
+            3 Números
+        Dimensiones interiores 
+            3 Números
+        Color
+            Texto
+        Equipamiento
+            Listado de textos
+        Transmisión
+            Texto
+        Servicios
+            Servicio
+Fecha
+Tareas
+Costo
+Realizador
+Factura
+        Kilometraje
+            Número
+        Reporte de Daño
+            Accesorio afectado
+            Arreglado?
+
+    
+
+    Contrato
+        Cliente (número de ID)
+        Auto (número de ID)
+        Tiempo de duración
+        Monto
+        Estatus
+
+        
+    Promocion
+        Imagen
+        Texto
+        Condiciones
+        Plazo de validez
+        Autos a los que aplica
+
+    Datos de Contacto (1 página web)
+Teléfono
+e-mail(s)
+Mapa
+Redes sociales
+    Horarios
+    Formulario de Contacto
+        Nombre de Persona
+        Fechas de interés
+        E-mail
+        Mensaje
+        
+
+
+
+
+
+
+
+
+
+    (Ejemplo agencia renta autos)
+    Inicio
+        Imagen de portada
+        Promociones
+        Nuevos vehículos
+        
+    Autos
+        Cuadrícula que muestra autos de 12 en 12
+        Página de 1 Auto
+    
