@@ -1,3 +1,30 @@
 * {
    outline: 1px solid #0cf;
 }
+
+
+
+div, header, footer, article, section {
+   /*h100%*/
+   height: 100%;
+}
+
+
+
+selector1,
+selector2 {
+   propiedad1: valor1;
+   propiedad2: valor2;
+}
+
+a {
+
+}
+
+#identidad {
+
+}
+
+.subcaja {
+   background-color: violet;
+}
