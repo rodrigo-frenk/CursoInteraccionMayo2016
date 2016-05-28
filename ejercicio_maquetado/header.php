@@ -5,8 +5,15 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:700|PT+Sans' rel='stylesheet' type='text/css'>
+
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/utilidades.css">
+
+    <link rel="stylesheet" href="js/vendor/slick-1.6.0/slick/slick.css">
+    <link rel="stylesheet" href="js/vendor/slick-1.6.0/slick/slick-theme.css">
+
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>

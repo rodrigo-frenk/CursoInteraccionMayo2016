@@ -1,6 +1,10 @@
+
+/*
 * {
    outline: 1px solid #0cf;
 }
+*/
+
 
 
 
@@ -9,6 +13,11 @@ div, header, footer, article, section {
    height: 100%;
 }
 
+
+main div {
+   /*p0!*/
+   padding: 0 !important;
+}
 
 
 selector1,
@@ -27,4 +36,91 @@ a {
 
 .subcaja {
    background-color: violet;
+}
+
+
+
+main div {
+   /*trns*/
+   -webkit-transition: background-color 3s;
+   -o-transition: background-color 3s;
+   transition: background-color 3s;
+}
+
+main div div div div:hover {
+   background-color: #0cf;
+}
+
+
+.blur {
+   -webkit-filter: blur(25px);
+	-moz-filter: blur(25px);
+	-o-filter: blur(25px);
+	-ms-filter: blur(25px);
+   filter: blur(25px);
+}
+
+
+
+
+
+#color_1 {
+   /*bgc*/
+   background-color: #FF7604;
+}
+#color_2 {
+   /*bgc*/
+   background-color: #E33300;
+}
+#color_3 {
+   /*bgc*/
+   background-color: #FF9A04;
+}
+
+a {
+   color: #03B1B1;
+}
+
+
+.color {
+   /*p30!*/
+   padding: 30px !important;
+}
+
+
+
+
+
+
+
+
+.fontXXS {
+font-size: 9px;
+}
+.fontXS {
+   font-size: 11px;
+}
+.fontS {
+font-size: 12px;
+}
+.fontM {
+font-size: 14px;
+}
+.fontL {
+font-size: 18px;
+}
+.fontXL {
+font-size: 23px;
+}
+.fontXXL {
+font-size: 30px;
+}
+
+
+* {
+   font-family: 'PT Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-family: 'Ubuntu', sans-serif;
 }
