@@ -40,14 +40,14 @@ a {
 
 
 
-main div {
+#arte_cajas div {
    /*trns*/
    -webkit-transition: background-color 3s;
    -o-transition: background-color 3s;
    transition: background-color 3s;
 }
 
-main div div div div:hover {
+#arte_cajas div div div div:hover {
    background-color: #0cf;
 }
 
@@ -123,4 +123,21 @@ font-size: 30px;
 
 h1,h2,h3,h4,h5,h6 {
    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+#slider .imagen {
+   -webkit-filter: grayscale(80%) brightness(125%) contrast(120%); /* Chrome, Safari, Opera */
+   filter: grayscale(80%) brightness(125%) contrast(120%);
+   -webkit-transition: filter 1s;
+   -o-transition: filter 1s;
+   transition: filter 1s;
+}
+
+#slider .imagen:hover {
+   -webkit-filter: grayscale(0%) brightness(125%) contrast(120%); /* Chrome, Safari, Opera */
+   filter: grayscale(0%) brightness(125%) contrast(120%);
 }

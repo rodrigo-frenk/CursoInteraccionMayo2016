@@ -14,7 +14,7 @@
     <script src="js/app.js"></script>
     <script src="js/leccion_1.js"></script>
     <script src="js/leccion_2_jquery.js"></script>
-    <!-- <script src="js/arte.js"></script> -->
+    <script src="js/arte.js"></script>
 
   </body>
 </html>
